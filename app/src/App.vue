@@ -105,11 +105,6 @@ export default {
   margin-top: 60px;
 }
 
-input{
-  border:1px solid white;
-  border-radius: 50px;
-  
-}
 </style>
 
 <style scoped>
@@ -122,7 +117,20 @@ h1 {
   width: 50vw;
 }
 
+input{
+  border:1px solid white;
+  border-radius: 50px;
+  
+}
+button{
+
+border:1px solid white;
+  border-radius: 50px;
+}
+
 .display {
   margin: 30px 0;
   padding: 30px;
+
 }
+
