@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <el-main>
-      <h1>Chemical Balancer</h1>
+      <h1> هاوسەنگی کیمیایی </h1>
       <el-form inline status-icon @submit.native="submit">
         <el-form-item>
           <el-input
-            placeholder="Chemical equation"
+            placeholder="هاوکێشەی کیمیایی"
             class="equation"
             v-model="value"
             clearable
@@ -31,7 +31,7 @@
         show-icon
         center
       >
-        <div v-html="solution" style="font-size: 30px"/>
+        <div v-html="solution" style="font-size: 15px"/>
       </el-alert>
       <el-alert
         type="error"
@@ -41,7 +41,7 @@
         show-icon
         center
       >
-        <span style="font-size: 30px">{{ error }}</span>
+        <span style="font-size: 15px">{{ error }}</span>
       </el-alert>
     </el-main>
   </div>
