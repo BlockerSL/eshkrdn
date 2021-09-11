@@ -108,7 +108,7 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 20px;
+  font-size: 15px;
   mar-bottom: 10px;
 }
 
