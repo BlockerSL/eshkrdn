@@ -120,7 +120,7 @@ h1 {
   margin: 30px 0;
   padding: 30px;
 }
-.app input{
+input{
   border:1px solid white;
   border-radius: 15px;
  }
