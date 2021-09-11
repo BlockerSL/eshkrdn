@@ -117,11 +117,6 @@ h1 {
   width: 50vw;
 }
 
-input{
-  border:1px solid white;
-  border-radius: 50px;
-  
-}
 button{
 
 border:1px solid white;
