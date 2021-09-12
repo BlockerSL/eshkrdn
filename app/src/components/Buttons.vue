@@ -4,7 +4,7 @@
       type="primary"
       icon="el-icon-refresh"
       @click="random"
-    > چارەسەرکردنی هاوکێشەی هەڕەمەکی </el-button>
+    > Solve random equation </el-button>
     <el-button
       type="primary"
       icon="el-icon-view"
